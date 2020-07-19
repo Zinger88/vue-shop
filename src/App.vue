@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <p>HI Jack</p>
+    <v-main-wrapper></v-main-wrapper>
   </div>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
+  import vMainWrapper from './components/v-main-wrapper'
 
-export default {
-  name: 'App',
-  components: {
-    //HelloWorld
+  export default {
+    name: 'App',
+    components: {
+      vMainWrapper
+    }
   }
-}
 </script>
 
 <style>
